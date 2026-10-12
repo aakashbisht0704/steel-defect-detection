@@ -1,0 +1,4 @@
+Model,Accuracy (%),Macro F1 (%),Precision (%),Recall (%),Params (M),Checkpoint (MB),Latency (ms/img)
+RESNET50,99.63,99.63,99.64,99.63,24.03,91.99,1.23
+EFFICIENTNET,99.63,99.63,99.64,99.63,4.02,15.6,0.55
+BASELINE,68.15,68.53,74.55,68.15,0.36,1.37,0.14

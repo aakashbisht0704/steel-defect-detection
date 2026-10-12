@@ -1,0 +1,2 @@
+# This directory stores the NEU Surface Defect dataset.
+# Run `python download_data.py` to populate data/NEU-CLS automatically.

@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Node / Frontend artifacts
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+steelsight/node_modules/
+steelsight/dist/
+steelsight/.tanstack/
+.codex-pptx-build/
+.chart-data-*/
+
+# Datasets (Large binary assets - download via download_data.py)
+data/NEU-CLS/
+data/NEU-DET/
+data/*.zip
+data/*.tar.gz
+
+# Model checkpoints (Recommended to host via GitHub Releases or Hugging Face Hub)
+# Uncomment the line below if you prefer NOT to track checkpoints in git:
+# checkpoints/*.pth
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & temp
+*.log
+scratch/
+tmp/
